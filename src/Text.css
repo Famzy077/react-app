@@ -1,0 +1,84 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}.main{
+    background-color: rgb(98, 202, 236);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+#First{
+    margin: 40px 10px;
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+}
+#First p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navContainer{
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 10px;
+    background-color: rgb(16, 138, 209);
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 10px;
+}
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid blue;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 10px;
+    color: #000;
+    background-color: lightblue;
+    margin: 10px;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(175, 175, 212);
+}
+
+li a{
+    color:  #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+li a:hover{
+    color: brown;
+}
+h1{
+    color: white;
+}
+#hidden{
+    padding: 10px;
+    box-shadow: 0 0 3px 0;
+    background-color: black;
+    opacity: .8;
+    display: none;
+}
+.fruit{
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
