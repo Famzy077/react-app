@@ -1,15 +1,15 @@
-import Student from './FirstReact.jsx'
+import { useState } from "react"
+
 const App = () => {
-    let userName = 'Famzy'
+    let userName = 'Famzy' 
+    let name = ['Akinola', 'Olaonipekun', 'Famzy', 'James']
+    let [fruit, setFruit] = useState({id: 1, name: 'Festus', email:'Akinolafemi@gmail.com'})
 
     return(
         <>
-            <p className='userGreetings'>Welcome Back {userName}!</p>
-            <div className="student">
-                <Student />
-                <footer>&copy; {userName + " " + new Date().getFullYear() } All right reserved</footer>
-            </div>
+            {name.map((names, nameKey) => <li>{names}</li>)}
+            <ul>{name}</ul>
         </>
-    )// Myname='Akinola Femi' Age={20} Male={true}
+    )
 }
 export default App
