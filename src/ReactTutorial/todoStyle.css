@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    margin-top: 80px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.inputs input{
+    width: 325px;
+    padding: 12px 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+ol li{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5em ;
+    list-style-type: none;
+    border: 2px solid lightgray;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    flex: 1;
+    padding: 5px 10px;
+}
+
+.addTask{
+    background-color: hsl(120, 80%, 70%);
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+.delete{
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: white;
+    border: 1px solid lightgray;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.up{
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: white;
+    border: 1px solid lightgray;
+    background-color: rgb(31, 95, 233);
+    font-size: 20px;
+    border-radius: 5px;
+}

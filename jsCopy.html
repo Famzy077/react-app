@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cody File</title>
+</head>
+<body>
+    <h1>Copy Text</h1>
+    <div class="copyText">
+        <h2 id="simpleText"></h2>
+    </div>
+
+
+    <script>
+        let copyText = document.querySelector('.copyText')
+        // let simpleText = document.getElementById('simpleText')
+        
+        let copyFunction =  async() => {
+          let simpleText = 'Click to copy the text'
+            try {
+                await navigator.clipboard.writeText(simpleText)
+                console.info('Text copied successfuilly')
+            } catch (error) {
+                console.error('Failed to copy')
+            }
+        }
+        // copyFunction( )
+    </script>
+</body>
+</html>

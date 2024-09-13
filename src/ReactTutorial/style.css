@@ -1,0 +1,10 @@
+.colorRange{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    place-content: center;
+    box-shadow: 0 0 12px lightblue;
+    border: 1px solid gray;
+    margin: auto;
+    color: white;
+}
